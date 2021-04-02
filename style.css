@@ -1,0 +1,57 @@
+body {
+    background-image: url(ESO.jpg); 
+    background-repeat: no-repeat;
+    background-size: 100vw;
+
+
+}
+
+#inputs {
+     display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+
+}
+
+#resultado {
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+    font-size: 30px;
+}
+
+#texto  {
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px;
+}
+
+#InputDoUsuario {
+    font-size: 30px;
+    
+    
+
+}
+
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+
+}
+input[type=number] { 
+   -moz-appearance: textfield;
+   appearance: textfield;
+
+}
+
+#botao {
+    font-size: 15px;
+    width: 100px;
+    margin-left: 10px;
+    border-radius: 3px;
+    border:none;
+    cursor: pointer;
+}
