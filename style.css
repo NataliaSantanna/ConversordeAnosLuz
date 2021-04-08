@@ -1,8 +1,12 @@
-body {
-    background-image: url(ESO.jpg); 
-    background-repeat: no-repeat;
-    background-size: 100vw;
+ 
 
+body {
+    background-image: url(images.png); 
+    min-height: 400px;
+    background-color: black;
+    background-size: 100vh;
+    background-position: center bottom;
+    background-repeat:  repeat-x repeat-y; 
 
 }
 
@@ -23,15 +27,16 @@ body {
 }
 
 #texto  {
-    color: aliceblue;
+    color: white;
     display: flex;
     justify-content: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 40px;
+    font-size: 30px;
 }
 
 #InputDoUsuario {
     font-size: 30px;
+    width: 200px;
     
     
 
@@ -48,8 +53,9 @@ input[type=number] {
 }
 
 #botao {
-    font-size: 15px;
-    width: 100px;
+    font-size: 14px;
+    width: 50px;
+    height: 35px;
     margin-left: 10px;
     border-radius: 3px;
     border:none;
